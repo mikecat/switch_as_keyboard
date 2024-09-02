@@ -5,6 +5,8 @@
 
 ## 開発環境のセットアップ
 
+[Arduino IDE](https://www.arduino.cc/en/software) を用います。
+
 [Seeeduino XIAO で入力の変化をUSBキーボードのキー押下として伝える #Arduino - Qiita](https://qiita.com/mikecat_mixc/items/c3f5e39e54b36b1a538a)
 
 ## 想定ハードウェア
