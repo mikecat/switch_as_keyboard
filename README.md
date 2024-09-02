@@ -7,6 +7,18 @@
 
 [Seeeduino XIAO で入力の変化をUSBキーボードのキー押下として伝える #Arduino - Qiita](https://qiita.com/mikecat_mixc/items/c3f5e39e54b36b1a538a)
 
+## 想定ハードウェア
+
+### sak6 (スイッチ6個)
+
+![完成品](sak6_phy.jpg)
+
+![設計図](sak6_board.png)
+
+Seeeduino XIAOを奥にしたとき、左端のスイッチが1番目、右端のスイッチが6番目です。
+
+基板は[秋月電子通商](https://akizukidenshi.com/catalog/default.aspx)のC基板、スイッチは秋月電子通商の販売コード 100300 です。
+
 ## プロトコル
 
 スイッチの状態が変化したとき、全スイッチの状態を送信します。
