@@ -1,0 +1,8 @@
+table {
+	border: 1px solid currentcolor;
+}
+
+th, td {
+	border: 1px solid currentcolor;
+	padding: 0.2em;
+}
