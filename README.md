@@ -5,7 +5,7 @@
 
 ## 受信デモ
 
-[https://mikecat.github.io/switch_as_keyboard/](https://mikecat.github.io/switch_as_keyboard/)
+[スイッチの情報をキーボード入力として伝えるやつ 受信デモ](https://mikecat.github.io/switch_as_keyboard/)
 
 ## 開発環境のセットアップ
 
