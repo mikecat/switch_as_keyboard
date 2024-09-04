@@ -3,6 +3,10 @@
 
 [Seeeduino XIAO](https://wiki.seeedstudio.com/Seeeduino-XIAO/) を利用して、スイッチの状態をキーボード入力としてパソコンなどに伝えます。
 
+## 受信デモ
+
+[https://mikecat.github.io/switch_as_keyboard/](https://mikecat.github.io/switch_as_keyboard/)
+
 ## 開発環境のセットアップ
 
 [Arduino IDE](https://www.arduino.cc/en/software) を用います。
