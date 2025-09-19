@@ -21,7 +21,7 @@ void sendStatus(int status) {
   dataToEncode[2] = ((dataToSend[1] << 2) | (dataToSend[2] >> 6)) & 0x3f;
   dataToEncode[3] = dataToSend[2] & 0x3f;
   // send
-  Keyboard.write(' ');
+  Keyboard.write('-');
   for (int i = 0; i < 4; i++) {
     int d = dataToEncode[i];
     if (d < 26) Keyboard.write(d + 'A');

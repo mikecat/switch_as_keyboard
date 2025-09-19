@@ -12,8 +12,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	document.addEventListener("keydown", (event) => {
 		const k = event.key;
-		if (k === " ") {
-			// 空白 = 状態リセット
+		if (k === "-" || k === " ") {
+			// 状態リセット
 			receivePhase = 0;
 			receivedData.splice(0);
 		} else if (receivePhase >= 0) {
