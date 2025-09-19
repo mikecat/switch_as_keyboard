@@ -91,7 +91,7 @@ const sakPlugin = {
 		josi: [],
 		fn: function(sys) {
 			const status = sys[STATUS_KEY] ?? (sys[STATUS_KEY] = {});
-			if (!status.initialized) return null;
+			if (!status.initialized) return [];
 			return status.switchStatus;
 		},
 	},
